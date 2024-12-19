@@ -54,7 +54,7 @@ CORE STYLES BELOW - NO TOUCHY
 .toggle-switchy > input:checked + .toggle:after {opacity:0;}
 
 /* Transitions */
-.toggle-switchy > input + .toggle {transition:background 200ms ease, box-shadow 200ms ease;}
+.toggle-switchy > input + .toggle {transition:background 200ms ease}
 .toggle-switchy > input + .toggle:before,
 .toggle-switchy > input + .toggle:after {transition:all 200ms ease;}
 .toggle-switchy > input + .toggle > .switch {transition:right 200ms ease, border-color 200ms ease;}
